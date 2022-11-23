@@ -50,7 +50,7 @@ header > p > a:hover{
     padding: 62px 30px 62px;
     margin-top: 80px;
     margin-bottom: 30px;
-    
+    box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.24) inset;
 
     background: white url('imagens/ladybug.jpg') right bottom no-repeat fixed;
     background-size: cover; 
@@ -70,6 +70,7 @@ header > p > a:hover{
     padding: 62px 30px 62px;
     margin-top: 80px;
     margin-bottom: 30px;
+    box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.24) inset;
     
 
     background: white url('imagens/paper.jpg') right bottom no-repeat fixed;
