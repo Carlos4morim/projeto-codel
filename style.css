@@ -9,6 +9,7 @@
     --fonte-titulo: 'Passion One', cursive;;
     --fonte-paragrafo: 'Sriracha', cursive;;
 }
+
 header{
     background-color: black;
     text-align: center;
@@ -20,30 +21,30 @@ header > h1{
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte-titulo);
-
 }
 header > p{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 50px;
 }
-header > p > a{
+a{
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
-header > p > a:hover{
+a:hover{
     text-decoration: underline;
     color: white;
     font-weight: bold;
 }
-.fechado{
+
+section.normal{
     font-family: var(--fonte-paragrafo);
     line-height: 2em;
     font-size: 3.5vw;
     padding: 30px;
 }
-.aberto1{
+section.imagem1{
     font-family: var(--fonte-paragrafo);
     line-height: 2em;
     font-size: 3.5vw;
@@ -55,15 +56,14 @@ header > p > a:hover{
     background: white url('imagens/ladybug.jpg') right bottom no-repeat fixed;
     background-size: cover; 
 }
-.aberto1 > p{
+section.imagem1 > p , section.imagem2 > p{
     background-color: rgba(0, 0, 0, 0.479);
     color: white;
-    width: 41.5vw;
-    padding-left: 4px ;
+    display: inline-block;
+    padding: 5px ;
     text-shadow: 2px 2px 2px black;
 }
-
-.aberto2{
+section.imagem2{
     font-family: var(--fonte-paragrafo);
     line-height: 2em;
     font-size: 3.5vw;
@@ -72,18 +72,9 @@ header > p > a:hover{
     margin-bottom: 30px;
     box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.24) inset;
     
-
     background: white url('imagens/paper.jpg') right bottom no-repeat fixed;
     background-size: cover; 
 }
-.aberto2 > p{
-    background-color: rgba(0, 0, 0, 0.479);
-    color: white;
-    width: 42vw;
-    padding-left: 4px ;
-    text-shadow: 2px 2px 2px black;
-}
-
 footer{
     background-color: black;
     padding: 10px;
@@ -92,13 +83,4 @@ footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
 }
-footer > p > a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;    
-}
-footer > p > a:hover{
-    text-decoration: underline;
-    color: white;
-    font-weight: bold;    
-}
+
